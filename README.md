@@ -36,15 +36,15 @@ CloudFront acts as a middleman between your S3 bucket and your website visitors.
 
   **key settings:** 
 
-  **Origin:** Points to the S3 bucket where your website content is stored.
+*  **Origin:** Points to the S3 bucket where your website content is stored.
 
-  **Default Root Object:** Similar to the S3 bucket configuration, this specifies "index.html" as the default file to serve when someone requests the root path of your website (e.g., https://www.cybertech-ca.com/).
+*  **Default Root Object:** Similar to the S3 bucket configuration, this specifies "index.html" as the default file to serve when someone requests the root path of your website (e.g., https://www.cybertech-ca.com/).
 
-  **Aliases:** This allows you to map your domain name (e.g., (https://www.cybertech-ca.com/) to the CloudFront distribution.
+*  **Aliases:** This allows you to map your domain name (e.g., (https://www.cybertech-ca.com/) to the CloudFront distribution.
 
-  **Default Cache Behavior:** Defines how CloudFront caches and delivers your website content. It allows GET and HEAD requests, compresses content for faster delivery, and redirects visitors to the HTTPS version of your website for improved     security (assuming an SSL certificate is configured).
+*  **Default Cache Behavior:** Defines how CloudFront caches and delivers your website content. It allows GET and HEAD requests, compresses content for faster delivery, and redirects visitors to the HTTPS version of your website for             improved security (assuming an SSL certificate is configured).
 
-  **Viewer Certificate (Optional):** This section allows you to integrate an SSL/TLS certificate from AWS Certificate Manager (ACM) to enable HTTPS encryption for secure communication between visitors and your website.
+*  **Viewer Certificate (Optional):** This section allows you to integrate an SSL/TLS certificate from AWS Certificate Manager (ACM) to enable HTTPS encryption for secure communication between visitors and your website.
     CloudFront Origin Access Identity (cloudfrontoriginaccessidentity - Optional):
 
 **Note:**
