@@ -49,8 +49,8 @@ CloudFront acts as a middleman between your S3 bucket and your website visitors.
 
 **Note:**
 Other resources can be potential added. For example:
-    **OAI (Origin Access Identity)** can be used to grant specific users or applications controlled access to your S3 bucket from CloudFront while maintaining the public "read" access for the website content itself.
-    **Mappings:** It can also be added, and this section can be helpful in certain scenarios. It allows you to define mappings for values that might differ based on the AWS region you're deploying the stack in. For example, you could map          region names to their corresponding S3 Hosted Zone IDs for website hosting.
+* **OAI (Origin Access Identity)** can be used to grant specific users or applications controlled access to your S3 bucket from CloudFront while maintaining the public "read" access for the website content itself.
+* **Mappings:** It can also be added, and this section can be helpful in certain scenarios. It allows you to define mappings for values that might differ based on the AWS region you're deploying the stack in. For example, you could map          region names to their corresponding S3 Hosted Zone IDs for website hosting.
 
 **Route 53 Record Set Group (WebsiteDNSName):**
 
