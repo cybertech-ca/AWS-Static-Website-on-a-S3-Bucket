@@ -56,7 +56,7 @@ Other resources can be potential added. For example: An **OAI (Origin Access Ide
 Route 53 is AWS's Domain Name System (DNS) service. It acts like a phonebook for the internet, translating your domain name (e.g., https://www.example.com/) into the IP address of the server hosting your website.
 This code creates a record in Route 53 that points your domain name to the CloudFront distribution. This ensures that when someone enters your domain name in their browser, they're directed to the CloudFront servers hosting your website content.
 
-**Additional Notes:**
+<p align="center">**Additional Notes**</p>
 
 This code snippet is a template and may require adjustments based on your specific needs.
 Security best practices recommend using HTTPS encryption for websites. While not explicitly shown in this example, you can integrate an ACM certificate with the CloudFront distribution to enable HTTPS.
