@@ -21,9 +21,9 @@ This CloudFormation code provides a blueprint for automatically creating the inf
 
 **S3 Bucket (WebsiteBucket):**
 
-1-This is the heart of your website's storage. Imagine it as a secure folder in the cloud where you'll upload all your website's files like HTML pages, CSS stylesheets, JavaScript code, images, and other assets.
-2-The code configures the bucket with "PublicRead" access, allowing anyone to access the website content publicly over the internet.
-3-It also specifies "index.html" as the default file to load when someone visits your website. This means if they navigate to your domain name without specifying a file, "index.html" will be displayed. Similarly, "404.html" is set as          the error document for situations like "page not found".
+* This is the heart of your website's storage. Imagine it as a secure folder in the cloud where you'll upload all your website's files like HTML pages, CSS stylesheets, JavaScript code, images, and other assets.
+* The code configures the bucket with "PublicRead" access, allowing anyone to access the website content publicly over the internet.
+* It also specifies "index.html" as the default file to load when someone visits your website. This means if they navigate to your domain name without specifying a file, "index.html" will be displayed. Similarly, "404.html" is set as          the error document for situations like "page not found".
 
 **S3 Bucket Policy (WebsiteBucketPolicy):**
 
