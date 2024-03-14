@@ -1,4 +1,5 @@
-#**Creating an Static Website using an AWS S3 Bucket**
+<p align="center"><b><big>Creating an Static Website using an AWS S3 Bucket</big></b></p>
+
 
 This CloudFormation code provides a blueprint for automatically creating the infrastructure to host a static website on Amazon Web Services (AWS). Let's break down the resources it creates and configures
 
