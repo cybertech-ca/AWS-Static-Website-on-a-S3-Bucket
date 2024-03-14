@@ -9,7 +9,7 @@ This CloudFormation code provides a blueprint for automatically creating the inf
     
       **DomainName:*** This parameter expects the user to provide the existing domain name they want to use for the website (e.g., https://www.cybertech-ca.com/).
 
-      **FullDomainName:** This parameter allows the user to specify the complete website URL, including any subdomain (e.g., (https://www.cybertech-ca.com/) or [invalid URL removed]).
+      **FullDomainName:** This parameter allows the user to specify the complete website URL, including any subdomain (e.g., https://www.cybertech-ca.com/) or [invalid URL removed]).
         
       **AcmCertificateArn (Optional):** This parameter is for an optional SSL/TLS certificate ARN (Amazon Resource Name) from ACM. If provided, the code configures CloudFront to use HTTPS encryption for secure communication.
 
@@ -38,7 +38,7 @@ CloudFront acts as a middleman between your S3 bucket and your website visitors.
 
   **Origin:** Points to the S3 bucket where your website content is stored.
 
-  **Default Root Object:** Similar to the S3 bucket configuration, this specifies "index.html" as the default file to serve when someone requests the root path of your website (e.g.,(https://www.cybertech-ca.com/).
+  **Default Root Object:** Similar to the S3 bucket configuration, this specifies "index.html" as the default file to serve when someone requests the root path of your website (e.g., https://www.cybertech-ca.com/).
 
   **Aliases:** This allows you to map your domain name (e.g., (https://www.cybertech-ca.com/) to the CloudFront distribution.
 
@@ -54,7 +54,7 @@ Other resources can be potential added. For example: An **OAI (Origin Access Ide
 
 **Route 53 Record Set Group (WebsiteDNSName):**
 
-Route 53 is AWS's Domain Name System (DNS) service. It acts like a phonebook for the internet, translating your domain name (e.g., https://www.example.com/) into the IP address of the server hosting your website.
+Route 53 is AWS's Domain Name System (DNS) service. It acts like a phonebook for the internet, translating your domain name (e.g., https://www.cybertech-ca.com/) into the IP address of the server hosting your website.
 This code creates a record in Route 53 that points your domain name to the CloudFront distribution. This ensures that when someone enters your domain name in their browser, they're directed to the CloudFront servers hosting your website content.
 
 <p align="center">**Additional Notes**</p>
